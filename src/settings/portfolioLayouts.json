@@ -1,9 +1,9 @@
 {
   "typography": {
     "title": {
-      "fontFamily": "fontStack2",
-      "fontWeight": "700",
-      "fontStyle": "italic",
+      "fontFamily": "fontStack1",
+      "fontWeight": "500",
+      "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1.25,
       "color": "#001ca8",
@@ -11,7 +11,7 @@
       "marginBottom": "0.25rem"
     },
     "line2": {
-      "fontFamily": "fontStack1",
+      "fontFamily": "fontStack2",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "1rem",
@@ -21,7 +21,7 @@
       "marginBottom": "0.25rem"
     },
     "line3": {
-      "fontFamily": "fontStack1",
+      "fontFamily": "fontStack2",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "0.75rem",
@@ -40,11 +40,11 @@
     "tiles": {
       "aspectRatio": "4/3",
       "minWidth": 300,
-      "overlayInset": "1rem",
+      "overlayInset": "0rem",
       "overlayColor": "#ffffff",
       "useProjectColor": false,
       "overlayPadding": "2rem",
-      "overlayOpacity": 75
+      "overlayOpacity": 50
     }
   },
   "card": {

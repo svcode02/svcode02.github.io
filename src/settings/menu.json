@@ -1,5 +1,5 @@
 {
-  "siteTitle": "Your Name Here",
+  "siteTitle": "Sara Veith",
   "position": {
     "discriminant": "top",
     "value": {
@@ -17,9 +17,9 @@
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff87",
+    "backgroundColor": "#f1f1f187",
     "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#0a0057ed",
+    "dropdownColor": "#e2e2e2ed",
     "dropdownHoverColor": "#ffffff80"
   },
   "typography": {
@@ -34,12 +34,12 @@
       "marginBottom": "0.5rem"
     },
     "menuSub": {
-      "fontFamily": "fontStack1",
+      "fontFamily": "fontStack2",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "1rem",
       "lineHeight": 1,
-      "color": "#ffffff",
+      "color": "#0a0057",
       "marginTop": "4px",
       "marginBottom": "4px"
     },
