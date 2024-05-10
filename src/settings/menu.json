@@ -29,7 +29,7 @@
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#1c1954",
       "marginTop": "0.5rem",
       "marginBottom": "0.5rem"
     },
@@ -39,17 +39,17 @@
       "fontStyle": "normal",
       "fontSize": "1rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#000000",
       "marginTop": "4px",
       "marginBottom": "4px"
     },
     "menuText": {
-      "fontFamily": "fontStack3",
+      "fontFamily": "fontStack1",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#1c1954",
       "marginTop": "4px",
       "marginBottom": "4px"
     }
