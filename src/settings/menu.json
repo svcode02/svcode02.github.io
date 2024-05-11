@@ -11,23 +11,23 @@
     "blurBehind": true
   },
   "sizes": {
-    "topBarHeight": "60px",
+    "topBarHeight": "70px",
     "topBarPadding": "1rem",
     "menuPadding": "1rem",
     "subItemIndent": "10px"
   },
   "colors": {
     "backgroundColor": "#f1f1f187",
-    "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#e2e2e2ed",
-    "dropdownHoverColor": "#ffffff80"
+    "menuHoverColor": "#f1f1f187",
+    "dropdownColor": "#e5e5e587",
+    "dropdownHoverColor": "#e5e5e587"
   },
   "typography": {
     "menuMain": {
       "fontFamily": "fontStack1",
-      "fontWeight": "400",
+      "fontWeight": "500",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "2rem",
       "lineHeight": 1,
       "color": "#1c1954",
       "marginTop": "0.5rem",
@@ -45,9 +45,9 @@
     },
     "menuText": {
       "fontFamily": "fontStack1",
-      "fontWeight": "400",
+      "fontWeight": "500",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "2rem",
       "lineHeight": 1,
       "color": "#1c1954",
       "marginTop": "4px",
