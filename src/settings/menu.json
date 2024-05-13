@@ -18,8 +18,8 @@
   },
   "colors": {
     "backgroundColor": "#f1f1f187",
-    "menuHoverColor": "#f1f1f187",
-    "dropdownColor": "#e5e5e587",
+    "menuHoverColor": "#e5e5e587",
+    "dropdownColor": "#f1f1f187",
     "dropdownHoverColor": "#e5e5e587"
   },
   "typography": {
