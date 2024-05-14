@@ -3,7 +3,7 @@
   "position": {
     "discriminant": "top",
     "value": {
-      "u": "1712840379550",
+      "u": "1715661702411",
       "alwaysDropdown": false
     }
   },
@@ -11,8 +11,8 @@
     "blurBehind": true
   },
   "sizes": {
-    "topBarHeight": "70px",
-    "topBarPadding": "1rem",
+    "topBarHeight": "75px",
+    "topBarPadding": "1.5rem",
     "menuPadding": "1rem",
     "subItemIndent": "10px"
   },
