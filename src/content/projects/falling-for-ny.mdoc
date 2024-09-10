@@ -7,7 +7,7 @@ thumbnail: ../../assets/images/pages/falling-for-ny/thumbnail.jpg
 accent: '#ffffff'
 publishStatus: published
 ---
-![](../../assets/images/pages/falling-for-ny/fallapp.jpg)
+{% ImagePopout image="/falling-for-ny/fallapp.jpg" /%}
 
 I created a visual identity, wireframes, and an interactive app prototype for an app called “Falling for NY”. The app’s purpose is to make it easy for users to find fall activities and trails nearby in New York. The app also has a map feature that allows users to look at trails and fall foliage in the area. This was all done after extensive UX research and a competitor analysis.&nbsp;
 
@@ -29,6 +29,24 @@ If you are interested in my process, I'd recommend that you take a look at my ca
    image="/falling-for-ny/wireframes-02.jpg"
    altText="high res wireframes" /%}
 
-{% ImagePopout
-   image="/falling-for-ny/appscreens.png"
-   altText="app screens" /%}
+---
+
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="20px" %}
+{% Column targetWidth="350px" flexGrow=false %}
+{% ImagePopout image="/falling-for-ny/marketing-01.jpg" /%}
+{% /Column %}
+
+{% Column targetWidth="350px" flexGrow=false %}
+{% ImagePopout image="/falling-for-ny/marketing-02.jpg" /%}
+{% /Column %}
+{% /MultiColumn %}
+
+---
+
+{% CustomWidth width="760px" %}
+{% ImagePopout image="/falling-for-ny/marketing-03.jpg" /%}
+{% /CustomWidth %}
