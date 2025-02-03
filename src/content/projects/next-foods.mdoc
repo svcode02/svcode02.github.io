@@ -19,6 +19,34 @@ Next Foods is a plant-based meat company that I designed a brand for. I created 
 
 ---
 
+{% CustomWidth width="850px" %}
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="10px" %}
+{% Column targetWidth="250px" flexGrow=false %}
+{% ImagePopout
+   image="/next-foods/nextmarketing-01.jpg"
+   altText="next marketing graphic 1" /%}
+{% /Column %}
+
+{% Column targetWidth="250px" flexGrow=false %}
+{% ImagePopout
+   image="/next-foods/nextmarketing-02.jpg"
+   altText="next marketing graphic 2" /%}
+{% /Column %}
+
+{% Column targetWidth="250px" flexGrow=false %}
+{% ImagePopout
+   image="/next-foods/nextmarketing-03.jpg"
+   altText="next marketing graphic 3" /%}
+{% /Column %}
+{% /MultiColumn %}
+{% /CustomWidth %}
+
+---
+
 {% ImagePopout
    image="/next-foods/website_mockup.png"
    altText="next website on laptop" /%}

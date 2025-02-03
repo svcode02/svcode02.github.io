@@ -71,12 +71,40 @@ The NY Renaissance Faire is a recreation of a 16th century village with performe
 
 ---
 
+{% CustomWidth width="900px" %}
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="20px" %}
+{% Column targetWidth="400px" flexGrow=false %}
 {% ImagePopout
    image="/ny-renaissance-faire/barrel.jpg"
    altText="renfaire barrel" /%}
+{% /Column %}
+
+{% Column targetWidth="400px" flexGrow=false %}
+{% ImagePopout image="/ny-renaissance-faire/shield.jpg" /%}
+{% /Column %}
+{% /MultiColumn %}
+{% /CustomWidth %}
 
 ---
 
+{% CustomWidth width="900px" %}
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="20px" %}
+{% Column targetWidth="400px" flexGrow=false %}
 {% ImagePopout
    image="/ny-renaissance-faire/renfairemug.jpg"
    altText="renfaire mug" /%}
+{% /Column %}
+
+{% Column targetWidth="400px" flexGrow=false %}
+{% ImagePopout image="/ny-renaissance-faire/beanie.jpg" /%}
+{% /Column %}
+{% /MultiColumn %}
+{% /CustomWidth %}
