@@ -149,7 +149,7 @@ declare module 'astro:content' {
   slug: "about";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
@@ -158,72 +158,72 @@ declare module 'astro:content' {
   slug: "all";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 "custom-group.mdoc": {
 	id: "custom-group.mdoc";
   slug: "custom-group";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "projects": {
+"bl-101-email-marketing.mdoc": {
+	id: "bl-101-email-marketing.mdoc";
+  slug: "bl-101-email-marketing";
+  body: string;
+  collection: "projects";
+  data: any
+} & { render(): Render[".mdoc"] };
+"bl-101-influencer-boxes.mdoc": {
+	id: "bl-101-influencer-boxes.mdoc";
+  slug: "bl-101-influencer-boxes";
+  body: string;
+  collection: "projects";
+  data: any
+} & { render(): Render[".mdoc"] };
 "brewing-connetions.mdoc": {
 	id: "brewing-connetions.mdoc";
   slug: "brewing-connetions";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "design-handbook.mdoc": {
 	id: "design-handbook.mdoc";
   slug: "design-handbook";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "falling-for-ny.mdoc": {
 	id: "falling-for-ny.mdoc";
   slug: "falling-for-ny";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
-} & { render(): Render[".mdoc"] };
-"mental-health-research-poster.mdoc": {
-	id: "mental-health-research-poster.mdoc";
-  slug: "mental-health-research-poster";
-  body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "new-paltz-design-lab.mdoc": {
 	id: "new-paltz-design-lab.mdoc";
   slug: "new-paltz-design-lab";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "next-foods.mdoc": {
 	id: "next-foods.mdoc";
   slug: "next-foods";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "ny-renaissance-faire.mdoc": {
 	id: "ny-renaissance-faire.mdoc";
   slug: "ny-renaissance-faire";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
-} & { render(): Render[".mdoc"] };
-"qview3d.mdoc": {
-	id: "qview3d.mdoc";
-  slug: "qview3d";
-  body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 
@@ -235,5 +235,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }
